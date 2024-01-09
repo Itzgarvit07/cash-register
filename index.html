@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register</title>
+    <link rel="stylesheet" href="cash-register.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+</head>
+<style>
+</style>
+<body>
+    
+     <div class="container">
+        <div class="cash-manager">
+            <div class="head-section">
+
+            <h1>Cash Register Manager</h1>
+            <p>Enter the bill amount and cash given by the customer and know the minimum number of notes to return.</p>
+        </div>
+
+            <div id="wrapper">
+                <h3>Bill Amount:</h3>
+                <input type="number" placeholder="Enter Bill Amount" id="input1">
+
+                <h3>Cash Amount:</h3>
+                <input type="number" placeholder="Enter Total Cash" id="input2"><br>
+
+                <button id="btn" onclick="calculateChange()">Check</button>
+
+                <h2>Return Change</h2>
+
+                <div id="table-box">
+                    <table>
+                        <tr>
+                            <th>No. of notes</th>
+                            <th id="value1"></th>
+                            <th id="value2"></th>
+                            <th id="value3"></th>
+                            <th id="value4"></th>
+                            <th id="value5"></th>
+                            <th id="value6"></th>
+                            <th id="value7"></th>
+                        </tr>
+                        <tr>
+                            <td>Notes</td>
+                            <td>500</td>
+                            <td>100</td>
+                            <td>50</td>
+                            <td>20</td>
+                            <td>10</td>
+                            <td>5</td>
+                            <td>1</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="cash-register.js">
+       
+    </script>
+
+</body>
+
+</html> 
+    
