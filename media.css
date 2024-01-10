@@ -1,0 +1,18 @@
+@media screen and (min-width: 290px) and (max-width:570px)
+{
+*{
+    margin: 0;
+    padding: 0;
+}
+/* .container{
+    width: unset !important;
+    height: auto;
+}
+.head-section{
+    width: unset !important;
+} */
+#wrapper{
+    width:unset !important;
+}
+
+}
